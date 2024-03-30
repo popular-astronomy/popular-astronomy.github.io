@@ -4610,6 +4610,27 @@ html.is-animating .scroll-progress-bar {
   display: flex;
   align-items: center;
 }
+.navbar-container .navbar-content .left .logo-image {
+  width: 34px;
+  height: 34px;
+  margin-right: 12px;
+}
+@media (max-width: 768px) {
+  .navbar-container .navbar-content .left .logo-image {
+    width: 30.6px;
+    height: 30.6px;
+  }
+}
+@media (max-width: 640px) {
+  .navbar-container .navbar-content .left .logo-image {
+    width: 27.200000000000003px;
+    height: 27.200000000000003px;
+  }
+}
+.navbar-container .navbar-content .left .logo-image img {
+  border-radius: 6px;
+  width: 100%;
+}
 .navbar-container .navbar-content .left .logo-title {
   font-size: 1.7rem;
   font-weight: 520;
@@ -5000,25 +5021,6 @@ html.is-animating .scroll-progress-bar {
 .side-tools-container .hidden-tools-list.show {
   opacity: 1;
   transform: translateX(0);
-}
-.side-tools-container .visible-tools-list .tool-scroll-to-top {
-  display: none;
-}
-.side-tools-container .visible-tools-list .tool-scroll-to-top.show {
-  display: flex;
-}
-.side-tools-container .visible-tools-list .tool-scroll-to-top:hover .percent {
-  display: none;
-}
-.side-tools-container .visible-tools-list .tool-scroll-to-top:hover .arrow-up {
-  display: flex;
-}
-.side-tools-container .visible-tools-list .tool-scroll-to-top .arrow-up {
-  display: none;
-}
-.side-tools-container .visible-tools-list .tool-scroll-to-top .percent {
-  display: flex;
-  font-size: 1rem;
 }
 :root {
   --background-color: #fff;
